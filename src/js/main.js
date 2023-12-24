@@ -8,6 +8,10 @@ $(function(){
             flag = false;
             $('.container').show('slow');
             $('.containerReg').hide();
+        } else {
+            flag = true;
+            $('.containerReg').show('slow');
+            $('.container').hide();
         }
     });
 });
