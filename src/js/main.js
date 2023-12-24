@@ -2,7 +2,6 @@
 $(function(){
     var flag = true;
     $('.reg').on('click', function(e){
-        e.preventDefault();
         
         if(flag){
             flag = false;
